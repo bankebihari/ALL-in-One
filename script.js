@@ -75,4 +75,16 @@
 // console.log(ans);
 
 
-//async js  
+//async js=> 
+// line by line code run is synchronous(sync);
+
+// jo bhi code async nature ka ho ,usse side stack mei bhej do and agle code ko chalawo jo bhi sync nature ka hoo , . jab bhi saare sync nature ka code chal jaye , tab check karo ki async code complete huaa ya nahi and agar wo complete hua hoo to ussey main stack me lawoo and chala do.
+
+async function abcd(){
+    var blob = await fetch(`https://randomuser.me/api/`);
+    var ans= await blob.json();  // blob is unreable that's why it's converting into tthe json format for raeadable   and awit is user because blob fetch take time than it will convert
+    console.log(ans);
+    console.log(ans.results[0]);
+
+}
+abcd();

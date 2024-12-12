@@ -49,3 +49,30 @@
 // console.log(arr.indexOf(10));
 
 
+// objects
+
+// //{} is also an object , key value pair are objects
+
+//  var obj={
+//     name: "banke",
+//     age: 23,
+
+// }
+// obj.name;
+// obj.freeze(obj);
+// obj.name=35;
+
+// function   
+//notes=> parameters of fn are  the length of fn  and type of function is objects
+
+// function abcd(a,b,c){
+//    return 12;
+// }
+// console.log(abcd.length);
+// console.log(typesOf(abcd));
+
+// var ans=abcd();
+// console.log(ans);
+
+
+//async js  
